@@ -1,0 +1,3 @@
+1. Two job titles are considered the same if jt1.strip().lower() == jt2.strip().lower()
+2. It is assumed that the datasets are sorted by EMD5 values. Tests running for both datasets shall help confirm this.
+3. The Cogo dataset has been referred to as "json" and the Liveworks dataset has been referred to as "sql".
