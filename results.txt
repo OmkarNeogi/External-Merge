@@ -1,0 +1,16 @@
+0:01:26.165370
+301031
+335372
+336119
+0.9985018154276469
+"00001f81bfbc733f17fb6ee34fc0d24d","Patent attorney","Richard, Cole and Smith","Immigration officer","Diaz Ltd"
+"0000634857164b38b640b3032bc7ac52","Translator","Barber PLC","Aeronautical engineer","Alvarado, Williams and Shah"
+"00009778d203b198b35f236e108a6bfc","Barrister's clerk","Oneill PLC","Customer service manager","Thomas-King"
+"0000a24e6e8b8f76e33f7df85ae12950","Electronics engineer","Mitchell, Turner and Diaz","Clinical psychologist","Rose-Ballard"
+"0000fb3bdf7daca821ce5b230e1f524e","Landscape architect","Hamilton, Clark and Harris","Warden/ranger","Marshall, Mills and Fitzpatrick"
+"000121c8158dd3e04679c8d8b7cdbc80","Administrator, Civil Service","Robinson-Suarez","Secretary, company","Ellison-Johnston"
+"0001aba4646dd86cb22bfeb75bcaf30e","Merchandiser, retail","Garcia PLC","Engineer, maintenance (IT)","Bradley, Gardner and Morgan"
+"00020d4649ad2f5ac5495544980f3df9","Colour technologist","Christian and Sons","Firefighter","Tucker Inc"
+"0002165f64e3d77ed7de826062b2f4aa","Editorial assistant","Smith Inc","Outdoor activities/education manager","Cuevas-Oliver"
+"0002400ba17f5b254f1807f61db6e38e","Film/video editor","Jordan, Johnson and Chase","Journalist, broadcasting","Smith PLC"
+CREATE TABLE CogoLiveworksJoin (EMD5 varchar(32), cogo.title varchar(255), cogo.company varchar(255), liveworks.title varchar(255), liveworks.company varchar(255));
